@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  boworred_on: MyString
+  date: MyString
+  returned_on: MyString
+  date: MyString
+  movie_id: MyString
+  integer: MyString
+
+two:
+  boworred_on: MyString
+  date: MyString
+  returned_on: MyString
+  date: MyString
+  movie_id: MyString
+  integer: MyString

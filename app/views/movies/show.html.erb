@@ -1,0 +1,36 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @movie.title %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @movie.year %>
+</p>
+
+
+<h3>Rentals</h3>
+<table>
+<tr> 
+    <th>boworred_on</th>  
+    <th>returned_on</th>  
+     
+</tr>
+ <% @movies.each do |movie| %>
+        <td><%= movie.title %></td>
+        <td><%= movie.year %></td>
+        <% end %>
+      
+
+<% @movie.rental.each do |award| %>
+<tr>
+    <td><%= rental.boworred_on %></td>
+    <td><%= rental.returned_on %></td>
+</tr>
+<% end %>
+</table>    
+
+<%= link_to 'Edit', edit_student_path(@student) %> |
+<%= link_to 'Back', students_path %>
