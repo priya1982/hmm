@@ -8,7 +8,7 @@ def new
 end
 
 def edit
-  @movie = Movie.edit
+
 	end
 
 def show
